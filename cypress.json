@@ -1,0 +1,9 @@
+{
+    "pageLoadTimeOut": "300000",
+    "baseUrl": "https://arstechnica.com/",
+    "testFiles": "**/*.feature",
+    "env": {
+        "username": "stephen7",
+        "password": "test123"
+    }
+}

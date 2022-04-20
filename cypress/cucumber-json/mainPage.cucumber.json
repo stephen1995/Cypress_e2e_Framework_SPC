@@ -1,0 +1,233 @@
+[
+  {
+    "description": "    Testing of main Page",
+    "keyword": "Feature",
+    "name": "Main Page testing",
+    "line": 1,
+    "id": "main-page-testing",
+    "tags": [],
+    "uri": "mainPage.feature",
+    "elements": [
+      {
+        "id": "main-page-testing;verify-links-are-not-broken-for-main-news",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify links are not broken for main news",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit arstechnica main page",
+            "result": {
+              "status": "passed",
+              "duration": 23806000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I visit each link",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I am taken to the content selected",
+            "result": {
+              "status": "passed",
+              "duration": 11252000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-page-testing;user-is-able-to-sign-in",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "User is able to Sign In",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I visit arstechnica main page",
+            "result": {
+              "status": "passed",
+              "duration": 12840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on Sign In link",
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I perform Sign In",
+            "result": {
+              "status": "passed",
+              "duration": 14532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I am able to click Profile Icon",
+            "result": {
+              "status": "passed",
+              "duration": 373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I see my username",
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-page-testing;user-is-taken-to-register-page-after-clicking-on-sign-up-button",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "User is taken to register page after clicking on Sign Up button",
+        "tags": [
+          {
+            "name": "@Sanity",
+            "line": 18
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I visit arstechnica main page",
+            "result": {
+              "status": "passed",
+              "duration": 15020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click on Sign In link",
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on Sign Up button",
+            "result": {
+              "status": "passed",
+              "duration": 3985000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I am taken to register page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-page-testing;user-is-taken-to-sendpassword-page-after-clicking-on-having-trouble?-link",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "User is taken to sendpassword page after clicking on Having trouble? link",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 25
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I visit arstechnica main page",
+            "result": {
+              "status": "passed",
+              "duration": 14521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I click on Sign In link",
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click on Having trouble link",
+            "result": {
+              "status": "passed",
+              "duration": 1966000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I am taken to sendpassword page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
