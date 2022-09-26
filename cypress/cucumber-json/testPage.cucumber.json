@@ -1,0 +1,47 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Learning",
+    "line": 1,
+    "id": "learning",
+    "tags": [],
+    "uri": "testPage.feature",
+    "elements": [
+      {
+        "id": "learning;test-staff",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test staff",
+        "tags": [
+          {
+            "name": "@Me",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have random page",
+            "result": {
+              "status": "passed",
+              "duration": 9271000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add \"Cucumber\" to my cart",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

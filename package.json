@@ -10,7 +10,8 @@
     "smoke": "npx cypress-tags run -e TAGS='@Smoke' --headed --browser chrome"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true,
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step_definitions",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",

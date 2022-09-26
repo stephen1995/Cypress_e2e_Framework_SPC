@@ -1,4 +1,3 @@
-# ecoPortal Challenge
 PRE REQUISITE:
 - Any JS IDE installed(for eg. Visual Studio Code )
 - Node JS installed

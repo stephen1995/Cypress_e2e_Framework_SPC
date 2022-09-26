@@ -1,0 +1,37 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Learning",
+    "line": 1,
+    "id": "learning",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "learning;test-staff",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test staff",
+        "tags": [
+          {
+            "name": "@Me",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have random page",
+            "result": {
+              "status": "undefined",
+              "duration": 394000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

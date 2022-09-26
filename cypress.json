@@ -2,8 +2,10 @@
     "pageLoadTimeOut": "300000",
     "baseUrl": "https://arstechnica.com/",
     "testFiles": "**/*.feature",
+    "defaultCommandTimeout": 25000,
     "env": {
         "username": "stephen7",
-        "password": "test123"
+        "password": "test123",
+        "testPageURL": "https://amex-stg.iseatz.com/flight-searches"
     }
 }

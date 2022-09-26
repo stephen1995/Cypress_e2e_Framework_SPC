@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Learning",
+    "line": 1,
+    "id": "learning",
+    "tags": [],
+    "uri": "flights.feature",
+    "elements": [
+      {
+        "id": "learning;select-a-flight-greater-than-300",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Select a flight greater than 300",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 9
+          },
+          {
+            "name": "@me",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I visit flights page",
+            "result": {
+              "status": "passed",
+              "duration": 4838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "search for a economy flight",
+            "result": {
+              "status": "passed",
+              "duration": 3323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "select a 300 dollars flight",
+            "result": {
+              "status": "passed",
+              "duration": 16512000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

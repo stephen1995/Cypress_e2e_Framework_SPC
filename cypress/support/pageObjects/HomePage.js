@@ -2,6 +2,31 @@
 export class HomePage {
 
 
+    visitHexacta() {
+        cy.visit("https://www.hexacta.com/")
+    }
+
+    visitRahulShetty() {
+        cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
+    }
+
+    clickOnSearchLink() {
+        cy.get(".searchbox").click()
+    }
+
+    searchForWord() {
+        cy.get(".search-field").type("Outsource{enter}")
+        //cy.get(".search-field").type("")
+    }
+
+    verifyWordIsPresentInResults() {
+
+        cy.get("h3 a").each(($element, index, $list) => {
+
+
+        })
+    }
+
     visitHomePage() {
         cy.visit("/");
     }

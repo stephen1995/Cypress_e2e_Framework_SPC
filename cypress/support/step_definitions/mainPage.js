@@ -1,9 +1,10 @@
 /// <reference types="Cypress" />
-import { HomePage } from '../../support/pageObjects/HomePage'
+import { HomePage } from '../pageObjects/HomePage'
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps"
 
-
 let homePage = new HomePage;
+
+
 
 Given("I visit arstechnica main page", () => {
     homePage.visitHomePage()
@@ -15,6 +16,7 @@ When("I visit each link", () => {
 
 Then("I am taken to the content selected", () => {
     homePage.validateUserIsTakenToContentSelected()
+    cy.selectLinkByText()
 })
 
 When("I click on Sign In link", () => {
@@ -49,6 +51,22 @@ Then("I am taken to sendpassword page", () => {
     homePage.verifyUserisTakenToSendPasswordPage()
 })
 
+
+Given("I visit hexacta page", () => {
+    homePage.visitHexacta()
+})
+
+When("I click on seach field at the top", () => {
+    homePage.clickOnSearchLink()
+})
+
+And("I search for Outsource", () => {
+    homePage.searchForWord()
+})
+
+Then("I verify \"What not to do when working with an outsourced software team\" is on one of the results", () => {
+
+})
 
 
 

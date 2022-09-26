@@ -28,3 +28,10 @@ Feature: Main Page testing
         When I click on Sign In link
         And I click on Having trouble link
         Then I am taken to sendpassword page
+
+    @Hexacta
+    Scenario: Verify that after search we have at least one result
+        Given I visit hexacta page
+        When I click on seach field at the top
+        And I search for Outsource
+        Then I verify "What not to do when working with an outsourced software team" is on one of the results

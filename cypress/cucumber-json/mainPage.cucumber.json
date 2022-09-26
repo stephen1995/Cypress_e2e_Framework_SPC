@@ -27,8 +27,8 @@
             "line": 6,
             "name": "I visit arstechnica main page",
             "result": {
-              "status": "passed",
-              "duration": 23806000000
+              "status": "undefined",
+              "duration": 64000000
             }
           },
           {
@@ -37,8 +37,7 @@
             "line": 7,
             "name": "I visit each link",
             "result": {
-              "status": "passed",
-              "duration": 5000000
+              "status": "skipped"
             }
           },
           {
@@ -47,8 +46,7 @@
             "line": 8,
             "name": "I am taken to the content selected",
             "result": {
-              "status": "passed",
-              "duration": 11252000000
+              "status": "skipped"
             }
           }
         ]
@@ -72,8 +70,8 @@
             "line": 12,
             "name": "I visit arstechnica main page",
             "result": {
-              "status": "passed",
-              "duration": 12840000000
+              "status": "undefined",
+              "duration": 1000000
             }
           },
           {
@@ -82,8 +80,7 @@
             "line": 13,
             "name": "I click on Sign In link",
             "result": {
-              "status": "passed",
-              "duration": 361000000
+              "status": "skipped"
             }
           },
           {
@@ -92,8 +89,7 @@
             "line": 14,
             "name": "I perform Sign In",
             "result": {
-              "status": "passed",
-              "duration": 14532000000
+              "status": "skipped"
             }
           },
           {
@@ -102,8 +98,7 @@
             "line": 15,
             "name": "I am able to click Profile Icon",
             "result": {
-              "status": "passed",
-              "duration": 373000000
+              "status": "skipped"
             }
           },
           {
@@ -112,8 +107,7 @@
             "line": 16,
             "name": "I see my username",
             "result": {
-              "status": "passed",
-              "duration": 40000000
+              "status": "skipped"
             }
           }
         ]
@@ -137,8 +131,7 @@
             "line": 20,
             "name": "I visit arstechnica main page",
             "result": {
-              "status": "passed",
-              "duration": 15020000000
+              "status": "undefined"
             }
           },
           {
@@ -147,8 +140,7 @@
             "line": 21,
             "name": "I click on Sign In link",
             "result": {
-              "status": "passed",
-              "duration": 261000000
+              "status": "skipped"
             }
           },
           {
@@ -157,8 +149,7 @@
             "line": 22,
             "name": "I click on Sign Up button",
             "result": {
-              "status": "passed",
-              "duration": 3985000000
+              "status": "skipped"
             }
           },
           {
@@ -167,8 +158,7 @@
             "line": 23,
             "name": "I am taken to register page",
             "result": {
-              "status": "passed",
-              "duration": 9000000
+              "status": "skipped"
             }
           }
         ]
@@ -192,8 +182,7 @@
             "line": 27,
             "name": "I visit arstechnica main page",
             "result": {
-              "status": "passed",
-              "duration": 14521000000
+              "status": "undefined"
             }
           },
           {
@@ -202,8 +191,7 @@
             "line": 28,
             "name": "I click on Sign In link",
             "result": {
-              "status": "passed",
-              "duration": 250000000
+              "status": "skipped"
             }
           },
           {
@@ -212,8 +200,7 @@
             "line": 29,
             "name": "I click on Having trouble link",
             "result": {
-              "status": "passed",
-              "duration": 1966000000
+              "status": "skipped"
             }
           },
           {
@@ -222,8 +209,58 @@
             "line": 30,
             "name": "I am taken to sendpassword page",
             "result": {
-              "status": "passed",
-              "duration": 9000000
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-page-testing;verify-that-after-search-we-have-at-least-one-result",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify that after search we have at least one result",
+        "tags": [
+          {
+            "name": "@Hexacta",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "I visit hexacta page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I click on seach field at the top",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I search for Outsource",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I verify \"What not to do when working with an outsourced software team\" is on one of the results",
+            "result": {
+              "status": "skipped"
             }
           }
         ]
